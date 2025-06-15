@@ -1,0 +1,46 @@
+<head>
+    <title> SURVEY FORM </title>
+    </head>
+    <body>
+        <h>IFET INFO</h><br>
+        <br>
+        <form>
+            <label for="fname">Name</label><br>
+            <input type="text" value="Enter your name"><br>
+            <br>
+            <label for="mail">Email</label><br>
+            <input type="text" value="Enter your email"><br>
+            <br>
+            <label for="age">Age</label><br>
+            <input type="text" value="Enter your age"><br>
+            <br>
+            <label for="describe"> Which one describes you?</label><br>
+            <select>
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+            <label for="lang">What are the languages are you well known?</label><br>
+            <input type="radio" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" value="JAVA">
+            <label for="java">JAVA</label><br>
+            <input type="radio" value="PYTHON">
+            <label for="pyt">PYTHON</label><br>
+            <input type="radio" value="C">
+            <label for="c">C</label><br>
+
+            <BR>
+            <input type="submit" value="Submit">
+
+           
+        </form>
+    
+    
+    </body>
+    </html>
